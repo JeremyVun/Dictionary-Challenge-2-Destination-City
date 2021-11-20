@@ -18,12 +18,14 @@ Correct Output:
   "Sao Paulo"
 """
 
+from solutions import fast
+
 
 ########
 # Write your code in this function
 ########
 def solution(paths, start):
-  pass
+  return fast(paths, start)
 
 
 ########
