@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "data": {
+        "paths": [
+          ["London","New York"],
+          ["New York","Lima"],
+          ["Lima","Sao Paulo"]
+        ],
+        "start": "London"
+      },
+      "answer": "Sao Paulo"
+    },
+    {
+      "data": {
+        "paths": [
+          ["B","C"],
+          ["D","B"],
+          ["C","A"]
+        ],
+        "start": "D"
+      },
+      "answer": "A"
+    },
+    {
+      "data": {
+        "paths": [
+          ["A","B"],
+          ["B","C"],
+          ["C","D"],
+          ["D","E"],
+          ["E","F"],
+          ["F","G"],
+          ["G","H"],
+          ["H","I"],
+          ["I","J"],
+          ["J","K"],
+          ["K","L"],
+          ["L","M"]
+        ],
+        "start": "A"
+      },
+      "answer": "M"
+    },
+    {
+      "data": {
+        "paths": [
+          ["Melbourne","Sydney"],
+          ["Gold Coast","Newcastle"],
+          ["Hobart","Melbourne"],
+          ["Adelaide","Melbourne"],
+          ["Townsville","Brisbane"],
+          ["Perth","Darwin"],
+          ["Darwin","Cairns"],
+          ["Cairns","Townsville"],
+          ["Brisbane","Gold Coast"],
+          ["Newcastle","Sydney"]
+        ],
+        "start": "Perth"
+      },
+      "answer": "Sydney"
+    }
+  ]
+}
